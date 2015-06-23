@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Task 1 Redo</title>
+		</head>
+
+		<body bgcolor="#000000">
+				<table align="left" border="0" cellpadding="0" cellspacing="0" bordercolor="black" width="100%" height="40">
+					<tr>
+						<td width="190">
+							<img src="BLKBX.jpg"/>	
+						</td>
+						<td>
+						 	<font face="arial" color="white">HOME | CONTACT</font>
+						</td>
+					</tr>
+				</table>
+
+				<hr color="orange" size="3" >
+
+				<table align="center" border="0" cellpadding="0" cellspacing="0" bordercolor="black" width="700" height="650">
+					<tr>
+						<td>
+							<img src="number1.jpg" hspace="20"/>
+						</td>
+						<td colspan="4">
+							<font face="arial" color="white">
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to HTML layout 1! We are going to play with a few basic things here, mainly basic markup for layouts. We will not be using and CSS for this exercise. All styling and formatting should be done only with basic HTML tags. For example, this should be 
+									<b>BOLD</b>.
+								This one should be 
+									<i>italicized</i>.
+								This one will be 
+									<u>underlined</u>.
+								<p></p>Now let's try something tricky.
+								<b><i><u>
+									Make this entire setence bold, italicized, AND underlined! 
+								</b></i></u>
+							</font>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<img src="arrowleft.jpg"/>	
+						</td>
+						<td colspan="3">
+							<font face="ariel" color="white">
+								<center>
+									The content area should be 700px wide.
+									<br></br>
+									(and this should be centered)
+								</center>
+							</font>
+						</td>	
+						<td>
+							<img src="arrowright.jpg"/>	
+						</td>	
+					</tr>
+					<tr>
+						<td colspan="5">
+							<font face="ariel" color="white">Here is a list of more things we are going to cover as we go down the page:</font>
+
+							<p></p>
+							<ul>
+								<font face="ariel" color="white">
+								<li>create this as an unordered list</li>
+								<li>instead of these dashes, it is fine to use the default bullet style for each list item</li>	
+								<li>
+									<font face="times new roman" color="white"> 
+										Try this one in a different font and 
+									</font>
+									<font size=5 face="times new roman" color="yellow"> 
+										this just a little larger and brighter!
+									</font>
+								</li>
+								<li> 
+									If I click <a href="http://www.blkbxcg.com" target="_blank"><font color="white">here</font></a>, it should take me to http://www.blkbxcg.com in a new window 
+								</li>
+								<li>
+									under this list, we are going to use a horizontal rule to divide the next section
+								</li>
+								<li>
+									under the horizontal rule, we are going to create a table. It will include:
+								</li>
+								<ol type="a">
+									<li>4 rows (each row is 40 px tall)</li>
+									<li>2 columns (the first column 100px, and the second column 600px)</li>
+									<li>last row will have 7 columns</li>
+									<li>(oh, and this is a nested ordered list inside the parent unordered list!)</li>
+								</ol>
+								<li>
+									under the table, we are going to float image 2 to the right
+								</li>
+							</font>
+							</ul>
+						</td>
+					</tr>	
+					<tr>
+						<td width="100%">
+							<hr size="3">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<table border="1" cellpadding="0" cellspacing="0" bordercolor="white" width="700" height="150">
+								<tr>
+									<td></td>
+									<td colspan="6"></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td colspan="6"></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td colspan="6"></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td colspan="6"></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+						</td>
+						<td>
+							<img src="number2.jpg"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<a href="#"><font face="arial" color="white">This anchor</font></a> 
+						<font face="arial" color="white"> should take me back to the first paragraph at the very top of the page.</font>
+						</td>
+					</tr>
+				</table>
+		</body>
+	</html>
